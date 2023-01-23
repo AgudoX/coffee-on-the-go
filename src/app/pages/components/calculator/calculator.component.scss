@@ -1,0 +1,43 @@
+.calculadora {
+    background-color: lightgrey;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.calculadora p {
+    background-color: white;
+    height: 30px;
+    border: 1px solid gray;
+}
+
+button {
+    width: 33.33%;
+    height: 40px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+    transition: 0.3s;
+}
+
+.calculadora .numeros {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculadora .numeros button:last-child {
+    width: 100%;
+}
+
+.calculadora .calculos button {
+    width: 25%;
+}
+
+.calculadora .calculos button:last-child {
+    width: 100%;
+}
